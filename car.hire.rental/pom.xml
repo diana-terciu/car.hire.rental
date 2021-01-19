@@ -17,9 +17,10 @@
 
     <modules>
         <module>rental</module>
-        <module>api</module>
+        <module>controller</module>
         <module>boot</module>
         <module>client.core</module>
+        <module>domain</module>
     </modules>
 
     <properties>

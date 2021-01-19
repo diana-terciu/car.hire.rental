@@ -10,10 +10,10 @@ import ro.agilehub.javacourse.car.hire.rental.rental.service.domain.RentalDO;
 @Mapper(componentModel = "spring")
 public interface RentalDTOMapper {
 
-    RentalDO toRentalDO(RentalDTO rentalDTO);
+	RentalDO toRentalDO(RentalDTO rentalDTO);
 
-    RentalDTO toRentalDTO(RentalDO rentalDO);
-    
-    List<RentalDTO> toRentalDTOList(List<RentalDO> rentalList);
+	RentalDTO toRentalDTO(RentalDO rentalDO);
+
+	List<RentalDTO> toRentalDTOList(List<RentalDO> rentalList);
 
 }
